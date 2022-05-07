@@ -68,7 +68,7 @@ let forecast = response.data.daily;
 function getForecast(coordinates) {
 console.log(coordinates);
 let apiKey = "bbc8f006b72647441651bc61b971531f";
-let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&unit=metric` ;
+let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric` ;
 axios.get(apiUrl).then(displayForecast);
 }
 
@@ -112,6 +112,7 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
+
 
 
 let form = document.querySelector("#search-form");

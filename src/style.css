@@ -1,3 +1,4 @@
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -58,21 +59,6 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
-  text-decoration: none;
-}
-
-.weatther-temperature .active {
-  color: rgb(33, 33, 33);
-  text-decoration: none;
-}
-
-.weather-temperature .active:hover {
-  cursor: default;
-  text-decoration: none;
-}
-
-.weather-temperature .inactive:hover {
-  cursor: default;
   text-decoration: none;
 }
 
