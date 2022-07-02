@@ -2,12 +2,14 @@
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background: radial-gradient(circle at 50% 50%, #d7d1d0, #dfd7d4, #e7dcd7, #eee3da, #f4e9dd, #f8f0e0, #fcf7e4, #feffe9);
 }
 
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background: radial-gradient(circle at 50% 50%, #d7d1d0, #dfd7d4, #e7dcd7, #eee3da, #f4e9dd, #f8f0e0, #fcf7e4, #feffe9);
 }
 
 h1 {
