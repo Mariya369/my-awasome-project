@@ -1,20 +1,15 @@
 
 .weather-app-wrapper {
   max-width: 600px;
-  background:
-        linear-gradient(rgba(255, 251, 1, 0.107), transparent),
-        linear-gradient(to top left, rgba(255, 238, 0, 0.111), transparent),
-        linear-gradient(to top right,rgba(118, 117, 126, 0.078) , transparent);
+  margin: 30px auto;
+  background: radial-gradient(circle at 50% 50%, #d7d1d0, #dfd7d4, #e7dcd7, #eee3da, #f4e9dd, #f8f0e0, #fcf7e4, #feffe9);
 }
 
 .weather-app {
   padding: 20px;
-  border: 1px solid hsl(214, 10%, 87%);
+  border: 1px solid #dadde1;
   border-radius: 5px;
-    background:
-        linear-gradient(rgba(255, 251, 1, 0.107), transparent),
-        linear-gradient(to top left, rgba(255, 238, 0, 0.111), transparent),
-        linear-gradient(to top right,rgba(118, 117, 126, 0.078) , transparent);
+  background: radial-gradient(circle at 50% 50%, #d7d1d0, #dfd7d4, #e7dcd7, #eee3da, #f4e9dd, #f8f0e0, #fcf7e4, #feffe9);
 }
 
 h1 {
